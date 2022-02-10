@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  input,
+  select,
+  option,
+  textarea {
+    @apply placeholder-gray-600;
+    @apply bg-gray-200;
+    @apply px-4;
+    @apply py-2;
+    @apply font-normal;
+  }
+  button {
+    @apply px-12;
+    @apply py-2;
+    @apply hover:opacity-80;
+  }
+}
